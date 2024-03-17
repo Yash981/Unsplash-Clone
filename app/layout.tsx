@@ -22,8 +22,7 @@ export default function RootLayout({
       <body className={be_Vietnam_Pro.className} >
           <ThemeProvider
             attribute="class"
-            defaultTheme="system"
-            enableSystem
+            defaultTheme="light"
             disableTransitionOnChange
           >
             <Navbar />
