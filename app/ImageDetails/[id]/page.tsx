@@ -148,7 +148,7 @@ const ImageDetails = () => {
                 <div className='mt-5 '>
                     <h1 className='text-2xl font-medium '>Collections</h1>
                     {resultData && resultData.related_collections.results.map((collections: any, index: number) => {
-                        return <div className='flex gap-5 items-center hover:bg-[#f1f5f9] rounded-md' key={index}>
+                        return <div className={`flex gap-5 items-center ${theme === "light" ? "hover:bg-[#f1f5f9] rounded-md":"hover:bg-[#1e293b] rounded-md"}`} key={index}>
                             
                             <div className="w-[65px] h-[65px] m-4">
                                 {/* <Link href={'/collections'}> */}
